@@ -14,7 +14,7 @@ export class TabsPage {
   tab2Root = AboutPage;
   tab3Root = ContactPage;
 
-  isAndroid: boolean = false;
+  isAndroid: boolean = true;
 
   constructor(public platform: Platform) {
     this.isAndroid = platform.is('android');
